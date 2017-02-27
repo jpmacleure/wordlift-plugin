@@ -12,6 +12,7 @@ import styled from 'styled-components';
 /**
  * @inheritDoc
  */
+
 const Wrapper = styled.div`
 	display: block;
 	position: relative;
