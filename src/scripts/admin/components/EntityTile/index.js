@@ -170,8 +170,7 @@ class EntityTile extends React.Component {
 					<Count entity={ this.props.entity }>
 						{ this.props.entity.occurrences.length }</Count>
 					<Label entity={ this.props.entity }>
-							{ this.props.entity.label }
-						</Label>
+						{ this.props.entity.label }</Label>
 					<Cloud className="fa fa-cloud"
 						   local={ this.props.entity.local } />
 				</Main>
